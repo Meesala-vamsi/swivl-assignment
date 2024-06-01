@@ -1,0 +1,23 @@
+.task-container{
+    padding: 10px 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.task-container .heading-container{
+    display: flex;
+    justify-content: center;
+}
+
+.heading-container h1{
+    color: #001845;
+}
+
+.task-container .taskform-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+

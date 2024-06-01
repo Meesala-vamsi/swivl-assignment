@@ -1,0 +1,36 @@
+.edit-container{
+    height: 100vh;
+    background-color: #00000064;
+    z-index: 3;
+    display: grid;
+    position: absolute;
+    width: 100%;
+}
+
+.edit-container .edit-input-container{
+    place-self: center;
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+.edit-input-container input{
+    outline: none;
+    padding: 10px;
+    border: 0;
+    background-color: beige;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.edit-input-container button{
+    background-color: skyblue;
+    border: 0;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+}

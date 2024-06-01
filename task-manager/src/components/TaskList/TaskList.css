@@ -1,0 +1,71 @@
+.tasklist-container{
+    list-style: none;
+    background-color: rgba(211, 211, 211, 0.623);
+    padding: 20px 18px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.tasklist-container .checkbox-container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.tasklist-container .tasklist-items{
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.checkbox-container input{
+    width: 20px;
+    height: 20px;
+}
+
+.tasklist-items .todo-icons-container{
+    display: flex;
+    gap: 10px;
+}
+
+.todo-icons-container .todo-icon{
+    cursor: pointer;
+}
+.checkbox-container .strikeout{
+    text-decoration: line-through;
+}
+
+.checkbox-container .remove-strikeout{
+    text-decoration: none;
+}
+
+@media screen and (max-width:768px){
+    .tasklist-container{
+        width: 100%;
+    }
+
+    .checkbox-container input{
+        width: 15px;
+        height: 15px;
+    }
+
+    .checkbox-container label{
+        font-size: 13px;
+    }
+
+    .todo-icons-container .todo-icon{
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width:908px){
+    .tasklist-container{
+        width: 700px;
+    }
+}
